@@ -4,6 +4,8 @@ First Protype doesn't have built in Power,mcu circuits. This PT1 is only creatin
 I'm not a hardware engineer so project maybe have faulty designs.This Board using Stm32f0 Discovery board to handle inputs and outputs.
 You can see inputs state by LED.But power calculations are wrong so I'm not soldered the Leds and their resistors.In theory boards outputs can drive relay but not tested. 
 
+![](20250215_220833.jpg)
+
 Input Side:
 Inputs Are Designed sink (0v Common).Protected by TVS diode and optocoupler.Added RC filter for ripples.
 
